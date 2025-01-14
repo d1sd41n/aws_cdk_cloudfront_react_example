@@ -8,3 +8,59 @@ __pycache__
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# General
+__pycache__/
+.DS_Store
+*.log
+.env
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+.Python
+.mypy_cache/
+.pytest_cache/
+*.pytest_cache/
+.tox/
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# AWS CDK
+cdk.out/
+cdk.context.json
+*.jsii
+
+# Node.js (React)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/build/
+/dist/
+.eslintcache
+*.cache
+
+# IDEs/Editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# MacOS
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
